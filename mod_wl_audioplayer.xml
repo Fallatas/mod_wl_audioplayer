@@ -1,12 +1,12 @@
 <extension type="module" version="3.8.0" method="upgrade">
-    <name>mod_wl_audioplayer</name>
+    <name>MOD_WL_AUDIOSLIDER</name>
     <creationDate>21.11.2018</creationDate>
     <author>Thomas Winterling</author>
     <authorEmail>info@winterling-labs.com</authorEmail>
     <authorUrl>https://www.winterling-labs.com</authorUrl>
     <license>GNU/GPLv2 only</license>
     <version>1.0.0.0</version>
-    <description>MOD_WL_AUDIOPLAYER_XML_DESCRIPTION</description>
+    <description>MOD_WL_AUDIOSLIDER_XML_DESCRIPTION</description>
 
     <files>
         <filename module="mod_wl_audioplayer">mod_wl_audioplayer</filename>
