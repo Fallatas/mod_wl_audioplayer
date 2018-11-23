@@ -15,6 +15,27 @@
     </files>
 
     <config>
+
+        <fields name="params">
+
+            <fieldset name="basic">
+
+                <field
+                        name= "params"
+                        type= "subform"
+                        label= "MOD_WL_AUDIOPLAYER"
+                        min= "1"
+                        max= "12"
+                        required= "true"
+                        formsource= "modules/mod_wl_audioplayer/single_audio.xml"
+                        multiple= "true"
+                        buttons= "add,remove"
+                />
+
+
+            </fieldset>
+        </fields>
+
     </config>
 
     <languages folder="language">
