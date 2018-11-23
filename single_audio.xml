@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <field name="artist" type="text" />
+    <field name="song" type="text" />
+    <field name="genre" type="text" />
+    <field name="audio" type="media" directory="audio" />
+</form>
