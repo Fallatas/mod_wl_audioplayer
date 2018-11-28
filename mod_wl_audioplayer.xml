@@ -11,6 +11,7 @@
     <files>
         <filename module="mod_wl_audioplayer">mod_wl_audioplayer.php</filename>
         <filename>helper.php</filename>
+        <filename>single_audio.xml</filename>
         <folder>tmpl</folder>
     </files>
 
@@ -31,7 +32,6 @@
                         multiple= "true"
                         buttons= "add,remove"
                 />
-
 
             </fieldset>
         </fields>
