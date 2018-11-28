@@ -9,7 +9,7 @@
     <description>MOD_WL_AUDIOSLIDER_XML_DESCRIPTION</description>
 
     <files>
-        <filename module="mod_wl_audioplayer">mod_wl_audioplayer</filename>
+        <filename module="mod_wl_audioplayer">mod_wl_audioplayer.php</filename>
         <filename>helper.php</filename>
         <folder>tmpl</folder>
     </files>
