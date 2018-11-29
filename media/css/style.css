@@ -1,0 +1,96 @@
+body,html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.aktive a{
+    color: #00ff00;
+}
+
+/* Audioplayer Layout */
+
+#wl-audioplayer {
+    width: 800px;
+    height: 200px;
+    background: seagreen;
+    margin-left: 25%;
+}
+
+#wl-audioplayer .top{
+    width: 100%;
+    height: 10px;
+    background: #7f007f;
+}
+
+#wl-audioplayer .top .defalutBar {
+    width: 100%;
+    height: 10px;
+    background: #00eeee;
+}
+
+#wl-audioplayer .top .defalutBar .progressBar{
+    width: 0;
+    height: 10px;
+    background: orange;
+    margin: 0;
+    padding: 0;
+}
+
+#wl-audioplayer .bottom{
+    width: 100%;
+    height: 190px;
+    background: transparent;
+}
+
+#wl-audioplayer .bottom .image-box {
+    width: 20%;
+    height: 100%;
+    background: green;
+    float: left;
+}
+
+#wl-audioplayer .bottom .userinterface {
+    width: 80%;
+    height: 190px;
+    background: red;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+/* Fields */
+
+#wl-audioplayer .bottom .userinterface .timeline, #wl-audioplayer .userinterface .buttons, #wl-audioplayer .userinterface .titles  {
+    width: 100%;
+    height: 63px;
+    background: orange;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+/* Borders Time and Title */
+
+#wl-audioplayer .bottom .userinterface .timeline .border, #wl-audioplayer .bottom .userinterface .titles .border {
+    width: 180px;
+    height: 50px;
+    border: 1px seagreen solid;
+    float: right;
+    margin-top: 6px;
+    text-align: center;
+}
+
+/* Buttons */
+
+#wl-audioplayer .bottom .userinterface .buttons .playbutton, #wl-audioplayer .bottom .userinterface .buttons .stopbutton, #wl-audioplayer .bottom .userinterface .buttons .prevbutton,
+#wl-audioplayer .bottom .userinterface .buttons .nextbutton, #wl-audioplayer .bottom .userinterface .buttons .playlistbutton, #wl-audioplayer .bottom .userinterface .buttons .mutebutton
+{
+    width: 50px;
+    height: 50px;
+    background: #7f007f;
+    margin-left: 25px;
+    margin-top: 6px;
+    display: inline-block;
+}
