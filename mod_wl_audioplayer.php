@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @package     mod_wl_audioplayer
  * @author      Thomas Winterling
