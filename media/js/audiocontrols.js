@@ -67,7 +67,7 @@ $(document).ready(function () {
 
     function progressClickBar(e) {
         if(!song.ended){
-            var mouseX =  e.pageX - bar.offsetLeft;
+            var mouseX =  e.pageX - defaultBar.offsetLeft;
             var newtime = mouseX*song.duration/barsize;
             song.currentTime = newtime;
             progressBar.style.width = mouseX + 'px';
