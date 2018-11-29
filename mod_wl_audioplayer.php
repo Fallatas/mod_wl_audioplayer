@@ -11,6 +11,7 @@ defined('_JEXEC') or die;
 
 JLoader::register('ModWL_AudioplayerHelper', __DIR__ . '/helper.php');
 
+$moduleparam = modWL_AudioplayerHelper::getModuleParams($params);
 
 // Check for a custom CSS file
 JHtml::_('stylesheet', 'mod_wl_audioplayer/user.css', array('version' => 'auto', 'relative' => true));
