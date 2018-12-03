@@ -42,6 +42,12 @@ $(document).ready(function () {
             var playedMinutes = parseInt(song.currentTime/60);
             var playedSeconds = parseInt(song.currentTime%60);
 
+            $('#playButton').on('click',function () {
+
+                saveTime = playedMinutes + ':' + playedSeconds;
+
+            });
+
             currentTime.innerHTML = playedMinutes + ':' + playedSeconds;
 
             if (playedSeconds <= 9){
