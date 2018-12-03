@@ -4,4 +4,5 @@
     <field name="song" type="text" />
     <field name="genre" type="text" />
     <field name="audio" type="media" directory="audio" />
+    <field name="image" type="media" directory="images" />
 </form>
